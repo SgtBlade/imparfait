@@ -1,9 +1,8 @@
 import React from "react";
 import { useObserver } from "mobx-react-lite";
-import { Switch, Route } from "react-router-dom";
-
-import { ROUTES } from "../../consts/index.js";
 import Home from "../Home/Home.js";
+import style from "./Authentication.module.css"
+
 
 const Authentication = () => {
 
@@ -12,12 +11,14 @@ const Authentication = () => {
 
   return useObserver(() => (
     <>
-      <Switch>
+      <section className={style.main}>
 
           <Home/>
 
+          <p className={style.banner}> Code is beschikbaar op <a href="https://github.com/SgtBlade/imparfait" rel="noreferrer" target={"_blank"}
+>https://github.com/SgtBlade/imparfait</a> </p>
 
-      </Switch>
+      </section>
     </>
   ));
 };

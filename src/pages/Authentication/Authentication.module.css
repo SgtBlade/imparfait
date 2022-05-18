@@ -3,3 +3,26 @@
     width: 100%;
     overflow: hidden;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    height: 100%;
+}
+
+.banner {
+     background-color: rgba(183, 106, 255, 0.919);
+     width: 100%;
+     text-align: center;
+     font-weight: bold;
+     font-size: 1.4rem;
+     padding: .5rem 1rem;
+     z-index: 2;
+}
+
+.banner a {
+    cursor: pointer;
+}
