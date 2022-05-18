@@ -1,0 +1,43 @@
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.question {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  margin: 2rem 1rem;
+}
+
+.questionWrap {
+  display: flex;
+}
+
+.input {
+  margin: 0 1rem;
+
+
+  margin-left: .5rem;
+  border:none;
+  border-bottom: solid .2rem #b7b9e1;
+  background-color: #eff1ff;
+
+  padding-left: .5rem;
+  text-align: center;
+}
+
+.input:focus {
+  border: solid .2rem #c7c9f0;
+  border-radius: .3rem;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.error {
+  color: rgb(252, 113, 113);
+  margin: .5rem;
+}

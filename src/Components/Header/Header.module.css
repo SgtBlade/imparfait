@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.headerList {
+    display: flex;
+    flex-flow: row;
+    
+}
+
+.headerList__item {
+    margin: .5rem;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 560px){
+  
+    .header {
+        flex-flow: column;
+        margin-bottom: 3rem;
+    }
+
+    .headerList {
+        margin-top: 2rem;
+
+        padding: 1rem 2rem;
+        justify-content: space-around;
+        border-top: solid .1rem rgb(160, 160, 160);
+        border-bottom: solid .1rem rgb(160, 160, 160);
+    }
+  }
